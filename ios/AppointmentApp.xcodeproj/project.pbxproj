@@ -11,9 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		15484E2B96F7EDDCDE73D7E3 /* libPods-AppointmentApp-AppointmentAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB37E2190C7B935761A55C9F /* libPods-AppointmentApp-AppointmentAppTests.a */; };
-		66B4CCEF57F2EC0DF4938C58 /* libPods-AppointmentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1EF5D745BD76E0B57F75CE /* libPods-AppointmentApp.a */; };
+		23C461B449F07B6DE80A7414 /* libPods-AppointmentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CD904EE70C01DED38C30B0 /* libPods-AppointmentApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8272DE544E0BA2A13380132A /* libPods-AppointmentApp-AppointmentAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C818B1E3B00432927D976 /* libPods-AppointmentApp-AppointmentAppTests.a */; };
+		8A6D09AE27171D4500356A5F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D09AD27171D4500356A5F /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +31,22 @@
 		00E356EE1AD99517003FC87E /* AppointmentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppointmentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AppointmentAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppointmentAppTests.m; sourceTree = "<group>"; };
+		0C790D6F901C2F72A69B933F /* Pods-AppointmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp.debug.xcconfig"; path = "Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AppointmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppointmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppointmentApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppointmentApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppointmentApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppointmentApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppointmentApp/main.m; sourceTree = "<group>"; };
-		35C83C09024550C8FD46E5C2 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3BDC4DA4679C12EA76B602BD /* Pods-AppointmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp.debug.xcconfig"; path = "Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		22B2583E071754C21CD30FB3 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp-AppointmentAppTests.release.xcconfig"; path = "Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppointmentApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F1EF5D745BD76E0B57F75CE /* libPods-AppointmentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppointmentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB37E2190C7B935761A55C9F /* libPods-AppointmentApp-AppointmentAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppointmentApp-AppointmentAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E99D32D8A03D23841A34157B /* Pods-AppointmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp.release.xcconfig"; path = "Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		8A6D09AC27171D4500356A5F /* AppointmentApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppointmentApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A6D09AD27171D4500356A5F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		9D5CAA6C71224D019DBEDA4B /* Pods-AppointmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp.release.xcconfig"; path = "Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		A2B0A8E9E22C2E67B37C6810 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CD904EE70C01DED38C30B0 /* libPods-AppointmentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppointmentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80C818B1E3B00432927D976 /* libPods-AppointmentApp-AppointmentAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppointmentApp-AppointmentAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F7641CEB3DDE5FA97CAA49B6 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp-AppointmentAppTests.release.xcconfig"; path = "Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15484E2B96F7EDDCDE73D7E3 /* libPods-AppointmentApp-AppointmentAppTests.a in Frameworks */,
+				8272DE544E0BA2A13380132A /* libPods-AppointmentApp-AppointmentAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B4CCEF57F2EC0DF4938C58 /* libPods-AppointmentApp.a in Frameworks */,
+				23C461B449F07B6DE80A7414 /* libPods-AppointmentApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				8A6D09AD27171D4500356A5F /* File.swift */,
+				8A6D09AC27171D4500356A5F /* AppointmentApp-Bridging-Header.h */,
 			);
 			name = AppointmentApp;
 			sourceTree = "<group>";
@@ -100,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8F1EF5D745BD76E0B57F75CE /* libPods-AppointmentApp.a */,
-				CB37E2190C7B935761A55C9F /* libPods-AppointmentApp-AppointmentAppTests.a */,
+				A5CD904EE70C01DED38C30B0 /* libPods-AppointmentApp.a */,
+				B80C818B1E3B00432927D976 /* libPods-AppointmentApp-AppointmentAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,12 +145,11 @@
 		CB8D68E9972F573A16FB606A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3BDC4DA4679C12EA76B602BD /* Pods-AppointmentApp.debug.xcconfig */,
-				E99D32D8A03D23841A34157B /* Pods-AppointmentApp.release.xcconfig */,
-				35C83C09024550C8FD46E5C2 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */,
-				F7641CEB3DDE5FA97CAA49B6 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */,
+				0C790D6F901C2F72A69B933F /* Pods-AppointmentApp.debug.xcconfig */,
+				9D5CAA6C71224D019DBEDA4B /* Pods-AppointmentApp.release.xcconfig */,
+				A2B0A8E9E22C2E67B37C6810 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */,
+				22B2583E071754C21CD30FB3 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AppointmentAppTests" */;
 			buildPhases = (
-				614C49033C70664DE8FA8880 /* [CP] Check Pods Manifest.lock */,
+				59B49811EEB0F39E02F4EEC9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				DEBFB4357976A9B7B5051144 /* [CP] Embed Pods Frameworks */,
-				63971D21AD642927271DA7E5 /* [CP] Copy Pods Resources */,
+				10A4880FABA65E1D7FEF1A2F /* [CP] Embed Pods Frameworks */,
+				9F31804A8E25728150130117 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +181,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AppointmentApp" */;
 			buildPhases = (
-				E1500559203C7E37E0C0CF0E /* [CP] Check Pods Manifest.lock */,
+				976B328862F884CD95CD44E6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E80DE2983D40AC0596CB8E10 /* [CP] Embed Pods Frameworks */,
-				93C587E715864EDFFDEE3C09 /* [CP] Copy Pods Resources */,
+				3B8383B5AE7DB75356C2E096 /* [CP] Embed Pods Frameworks */,
+				A9BABA005AB42DFCDFD5873E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,7 +212,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -265,7 +269,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		614C49033C70664DE8FA8880 /* [CP] Check Pods Manifest.lock */ = {
+		10A4880FABA65E1D7FEF1A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8383B5AE7DB75356C2E096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B49811EEB0F39E02F4EEC9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,58 +325,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		63971D21AD642927271DA7E5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		93C587E715864EDFFDEE3C09 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEBFB4357976A9B7B5051144 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1500559203C7E37E0C0CF0E /* [CP] Check Pods Manifest.lock */ = {
+		976B328862F884CD95CD44E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,21 +347,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E80DE2983D40AC0596CB8E10 /* [CP] Embed Pods Frameworks */ = {
+		9F31804A8E25728150130117 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BABA005AB42DFCDFD5873E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -412,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				8A6D09AE27171D4500356A5F /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,8 +434,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35C83C09024550C8FD46E5C2 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */;
+			baseConfigurationReference = A2B0A8E9E22C2E67B37C6810 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -456,8 +462,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7641CEB3DDE5FA97CAA49B6 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */;
+			baseConfigurationReference = 22B2583E071754C21CD30FB3 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = AppointmentAppTests/Info.plist;
@@ -480,12 +487,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BDC4DA4679C12EA76B602BD /* Pods-AppointmentApp.debug.xcconfig */;
+			baseConfigurationReference = 0C790D6F901C2F72A69B933F /* Pods-AppointmentApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6ZP9J2YAS;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = AppointmentApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,6 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AppointmentApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppointmentApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,11 +516,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E99D32D8A03D23841A34157B /* Pods-AppointmentApp.release.xcconfig */;
+			baseConfigurationReference = 9D5CAA6C71224D019DBEDA4B /* Pods-AppointmentApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6ZP9J2YAS;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = AppointmentApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,6 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AppointmentApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "AppointmentApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
