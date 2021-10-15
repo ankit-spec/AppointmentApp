@@ -10,10 +10,6 @@ module.exports.passwordCheck = (password) => {
 };
 
 module.exports.validatePhoneNumber = (phoneNumber) => {
-    var re = /^(?!0{5})\d{5}$/;
-    if (phoneNumber == "") {
-        return `Please enter your mobile number`
-    }
     if (!/^[0][1-9]$|^[1-9]\d{8,14}$/.test(phoneNumber)) {
         return 'Please enter valid mobile number';
     }

@@ -12,6 +12,8 @@ target 'AppointmentApp' do
     :hermes_enabled => false
   )
 
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
   target 'AppointmentAppTests' do
     inherit! :complete
     # Pods for testing
@@ -25,7 +27,6 @@ target 'AppointmentApp' do
 
   post_install do |installer|
     react_native_post_install(installer)
-    __apply_Xcode_12_5_M1_post_install_workaround(installer)
     installer.pods_project.build_configurations.each do |config|
           config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
             end
