@@ -1,12 +1,20 @@
 import React, {useState} from 'react';
-import {StyleSheet, SafeAreaView, View, Text, TouchableOpacity} from 'react-native';
+import {
+  StyleSheet,
+  SafeAreaView,
+  View,
+  Text,
+  TouchableOpacity,
+  ActivityIndicator
+} from 'react-native';
 import Backgroundimage from '../../../assets/images/Backgroundimage.svg';
 import Backgroundimage1 from '../../../assets/images/Backgroundimage1.svg';
 import Button from '../../../components/Button/Button';
-import Input from '../../../components/Input/Input';
 import {colors} from '../../../styles/colors';
 import OTPInputView from '@twotalltotems/react-native-otp-input';
 import CountDown from 'react-native-countdown-component';
+import {useSelector, useDispatch} from 'react-redux';
+import * as authActions from '../../../redux/actions/auth';
 
 import {
   moderateScale,
@@ -14,13 +22,20 @@ import {
   verticalScale,
 } from '../../../styles/responsiveStyles';
 import {typography} from '../../../styles/typography';
-import {showError, showSuccess} from '../../../utils/helperFunction';
-import {validatePhoneNumber} from '../../../utils/validations';
-const OtpScreen = ({navigation}) => {
+import {showError} from '../../../utils/helperFunction';
+const OtpScreen = ({navigation, route}) => {
+  const otpp = useSelector(state => state.auth.otp);
+  const phonenumberr = useSelector(state => state.auth.phone);
+  console.log(otpp, '<<<<=====otp');
+  console.log(phonenumberr, '<<<<====pnumber');
+  const dispatch = useDispatch();
   const [otp, setotp] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+
   const [random, SetRandom] = useState(Math.random());
-  const [counter, SetCounter] = useState(30); // Set here your own timer configurable
-  const [disabled, setDisabled] = useState(true)
+  const [counter, SetCounter] = useState(30);
+  const [disabled, setDisabled] = useState(true);
+  const [exportnumber, setexportnumber] = useState(route.params.phone);
 
   const isValidData = () => {
     if (otp === '') {
@@ -28,24 +43,47 @@ const OtpScreen = ({navigation}) => {
       return;
     }
     if (otp && otp !== '' && otp.length > 5) {
-    
     } else {
       showError('You have to enter at least 6 digit!');
       return;
     }
-
-    if (otp !== '111111') {
-      showError('otp incorrect');
+    if (otp != otpp) {
+      showError('Incorrect otp');
       return;
     }
-    navigation.navigate('Signup')
+    
+    setIsLoading(true);
+    dispatch(authActions.verifyOtp(otpp, phonenumberr));
+    setIsLoading(false);
 
+    navigation.navigate('Signup');
+    // const requestOptions = {
+    //   method: 'POST',
+    //   headers: {'Content-Type': 'application/json'},
+    //   body: JSON.stringify({
+    //     otp: route.params.phonenumber.response,
+    //     phone: route.params.phonenumber.mobile,
+    //   }),
+    // };
+    // fetch('http://18.117.1.132/v1/users/otp_verify', requestOptions)
+    //   .then(response => response.json())
+    //   .then(responseJson => {
+    //     console.log(responseJson, ';;;;');
+
+    //     navigation.navigate('Signup');
+    //   });
   };
   const handleResend = () => {
-    SetRandom(Math.random())
-    // Handle Resend otp action here
+    SetRandom(Math.random());
+    dispatch(authActions.phoneSignin(exportnumber));
+  };
+  if (isLoading) {
+    return (
+      <View style={styles.centered}>
+        <ActivityIndicator size="large" color={'red'} />
+      </View>
+    );
   }
-  
   return (
     <SafeAreaView style={styles.container}>
       <Backgroundimage1 style={styles.image} />
@@ -76,34 +114,40 @@ const OtpScreen = ({navigation}) => {
       <View style={styles.cover1} />
       <Button onPress={isValidData} text="כניסה" />
       <View style={styles.timeinterval}>
-          <Text style={styles.timetext}>
-              (
-              </Text>
-      <CountDown
-            key={random}
-            until={counter}
-            size={10}
-            onFinish={() => setDisabled(() => false)}
-            separatorStyle={{ color: 'black' }}
-            timeLabelStyle={{ color:'red'}}
-            digitStyle={{  color: colors.GREY_1,
-               
-                opacity: 0.5,
-                fontSize: typography.FONT_SIZE16}}
-            digitTxtStyle={{ color: colors.GREY_1,opacity: 0.5, fontSize: typography.FONT_SIZE16}}
-            timeToShow={['M', 'S']}
-            showSeparator
-            separatorStyle={{color: colors.GREY_1,opacity:0.5,marginLeft:-20,marginRight:-20}}
-            timeLabels={{ m: '', s: '' }}
-          />
-          <Text style={styles.timetext}>
-              )
-              </Text>
-          <TouchableOpacity style={{marginLeft:10}} onPress={handleResend} >
-        <Text style={styles.timetext}>לא קיבלתי קוד</Text>
+        <Text style={styles.timetext}>(</Text>
+        <CountDown
+          key={random}
+          until={counter}
+          size={10}
+          onFinish={() => setDisabled(() => false)}
+          separatorStyle={{color: 'black'}}
+          timeLabelStyle={{color: 'red'}}
+          digitStyle={{
+            color: colors.GREY_1,
+
+            opacity: 0.5,
+            fontSize: typography.FONT_SIZE16,
+          }}
+          digitTxtStyle={{
+            color: colors.GREY_1,
+            opacity: 0.5,
+            fontSize: typography.FONT_SIZE16,
+          }}
+          timeToShow={['M', 'S']}
+          showSeparator
+          separatorStyle={{
+            color: colors.GREY_1,
+            opacity: 0.5,
+            marginLeft: -20,
+            marginRight: -20,
+          }}
+          timeLabels={{m: '', s: ''}}
+        />
+        <Text style={styles.timetext}>)</Text>
+        <TouchableOpacity style={{marginLeft: 10}} onPress={handleResend}>
+          <Text style={styles.timetext}>לא קיבלתי קוד</Text>
         </TouchableOpacity>
       </View>
-     
     </SafeAreaView>
   );
 };
@@ -168,14 +212,17 @@ const styles = StyleSheet.create({
     marginTop: moderateScale(24),
     alignItems: 'center',
     justifyContent: 'center',
-    flexDirection:'row'
+    flexDirection: 'row',
   },
   timetext: {
     color: colors.GREY_1,
     opacity: 0.5,
     fontSize: typography.FONT_SIZE16,
   },
+  centered: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
 });
-
-//make this component available to the app
 export default OtpScreen;

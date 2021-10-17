@@ -1,4 +1,5 @@
 import {showMessage, hideMessage} from 'react-native-flash-message';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const showError = message => {
   showMessage({
@@ -24,6 +25,10 @@ export function otpTimerCounter(seconds){
   m=m<10?"0"+m:m;
   s=s<10?"0"+s:s;
   return (`${m}:${s}`)
+}
+
+export async function clearUserData() {
+	return AsyncStorage.removeItem('token');
 }
 
 

@@ -8,13 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AppointmentAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AppointmentAppTests.m */; };
+		12E99193A2B44695A4EB80D5 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1915EF28A3144818B8F49F77 /* Feather.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1C3DAF86315D4367A23F97CD /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E005F69A2DB4794A6A9A4EE /* MaterialIcons.ttf */; };
+		20F651B0466F490CA2F0C529 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D377229441A4CEF93CE8AD6 /* FontAwesome.ttf */; };
+		238ADA3E4F0F48ADBD3D15AB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC6010BB04D450985A1A2D2 /* Octicons.ttf */; };
 		23C461B449F07B6DE80A7414 /* libPods-AppointmentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CD904EE70C01DED38C30B0 /* libPods-AppointmentApp.a */; };
+		2BCE9686B3BC42EF8B345C4F /* IBMPlexSansHebrew-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F2ED9A6254FB78846F96A /* IBMPlexSansHebrew-Thin.ttf */; };
+		48A11E61DB95446DB52D6030 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A006F8266064E9DBFFDA14B /* FontAwesome5_Solid.ttf */; };
+		66E484F131684E569D408A0D /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864D4A6C41C44167BA0C8EEB /* Fontisto.ttf */; };
+		6B52865A0DDB4C98ADD4C4AF /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D55FDC21FF4746E186740F94 /* EvilIcons.ttf */; };
+		7C1D98B9EB24480E8D851AC9 /* IBMPlexSansHebrew-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7413B70A8D4E4175B380F527 /* IBMPlexSansHebrew-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8272DE544E0BA2A13380132A /* libPods-AppointmentApp-AppointmentAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C818B1E3B00432927D976 /* libPods-AppointmentApp-AppointmentAppTests.a */; };
 		8A6D09AE27171D4500356A5F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D09AD27171D4500356A5F /* File.swift */; };
+		91492B8FE9434DD4B43F8E7F /* IBMPlexSansHebrew-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9D25EA0BA414DCD8BF0529E /* IBMPlexSansHebrew-Bold.ttf */; };
+		9F78AC430CA84A278A3F0E52 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2016C7F44E0B4A2FA4590723 /* SimpleLineIcons.ttf */; };
+		B4D9C16DB23C4BEB9416BF32 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77743136B45242E2B970828D /* AntDesign.ttf */; };
+		C066F4FDB7EA4497B11BBE60 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60563DCEC50543728382DAD0 /* Foundation.ttf */; };
+		CD40E142ECEA4A22AF2CAC05 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439CB61650494F68B4CFC832 /* Entypo.ttf */; };
+		CFCC04CAB4164D02B85FACC3 /* IBMPlexSansHebrew-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 277902FFE98E41469D47EEC4 /* IBMPlexSansHebrew-Regular.ttf */; };
+		D02E37CBBF914AC8932AAEFA /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5FBCCC4DBFB4793A384E7F0 /* Ionicons.ttf */; };
+		D868B640F32B42EAA72A1C29 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03CF69EAAAD84FB5A5525D0B /* FontAwesome5_Brands.ttf */; };
+		E13A6CFC91514FC8BE9ED0D4 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20EA9F66CB144444AA7FB04D /* Zocial.ttf */; };
+		E7EB2EE3BD0D4921A1AE601B /* IBMPlexSansHebrew-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7437F6CF2B748DDA6C26EE4 /* IBMPlexSansHebrew-SemiBold.ttf */; };
+		EB3D5A21E95B48339B4EBBA0 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17D7FE1A153343A599650987 /* MaterialCommunityIcons.ttf */; };
+		EE5F3A3201A144FA82F3971E /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28AF3675B924F36A6F29D57 /* FontAwesome5_Regular.ttf */; };
+		F2DAC5DC3FB34AF9AC690537 /* IBMPlexSansHebrew-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44CDDF7E0EBF4AB39E928E7A /* IBMPlexSansHebrew-Medium.ttf */; };
+		F8D98A1DC3B04D8580D9DCC5 /* IBMPlexSansHebrew-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64964603D71D47AAA59CC766 /* IBMPlexSansHebrew-ExtraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +54,8 @@
 		00E356EE1AD99517003FC87E /* AppointmentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppointmentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AppointmentAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppointmentAppTests.m; sourceTree = "<group>"; };
+		03CF69EAAAD84FB5A5525D0B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		0A006F8266064E9DBFFDA14B /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		0C790D6F901C2F72A69B933F /* Pods-AppointmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp.debug.xcconfig"; path = "Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AppointmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppointmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppointmentApp/AppDelegate.h; sourceTree = "<group>"; };
@@ -38,14 +63,35 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppointmentApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppointmentApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppointmentApp/main.m; sourceTree = "<group>"; };
+		17D7FE1A153343A599650987 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		1915EF28A3144818B8F49F77 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		2016C7F44E0B4A2FA4590723 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		20EA9F66CB144444AA7FB04D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		22B2583E071754C21CD30FB3 /* Pods-AppointmentApp-AppointmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp-AppointmentAppTests.release.xcconfig"; path = "Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		277902FFE98E41469D47EEC4 /* IBMPlexSansHebrew-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-Regular.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-Regular.ttf"; sourceTree = "<group>"; };
+		2D377229441A4CEF93CE8AD6 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		439CB61650494F68B4CFC832 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		44CDDF7E0EBF4AB39E928E7A /* IBMPlexSansHebrew-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-Medium.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-Medium.ttf"; sourceTree = "<group>"; };
+		5A8F2ED9A6254FB78846F96A /* IBMPlexSansHebrew-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-Thin.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-Thin.ttf"; sourceTree = "<group>"; };
+		60563DCEC50543728382DAD0 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		64964603D71D47AAA59CC766 /* IBMPlexSansHebrew-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-ExtraLight.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7413B70A8D4E4175B380F527 /* IBMPlexSansHebrew-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-Light.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-Light.ttf"; sourceTree = "<group>"; };
+		77743136B45242E2B970828D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		7E005F69A2DB4794A6A9A4EE /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppointmentApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		864D4A6C41C44167BA0C8EEB /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		8A6D09AC27171D4500356A5F /* AppointmentApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppointmentApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A6D09AD27171D4500356A5F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		9D5CAA6C71224D019DBEDA4B /* Pods-AppointmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp.release.xcconfig"; path = "Target Support Files/Pods-AppointmentApp/Pods-AppointmentApp.release.xcconfig"; sourceTree = "<group>"; };
 		A2B0A8E9E22C2E67B37C6810 /* Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AppointmentApp-AppointmentAppTests/Pods-AppointmentApp-AppointmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5CD904EE70C01DED38C30B0 /* libPods-AppointmentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppointmentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7437F6CF2B748DDA6C26EE4 /* IBMPlexSansHebrew-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-SemiBold.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-SemiBold.ttf"; sourceTree = "<group>"; };
 		B80C818B1E3B00432927D976 /* libPods-AppointmentApp-AppointmentAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppointmentApp-AppointmentAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D25EA0BA414DCD8BF0529E /* IBMPlexSansHebrew-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansHebrew-Bold.ttf"; path = "../src/assets/fonts/IBMPlexSansHebrew-Bold.ttf"; sourceTree = "<group>"; };
+		C28AF3675B924F36A6F29D57 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		CEC6010BB04D450985A1A2D2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		D55FDC21FF4746E186740F94 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		D5FBCCC4DBFB4793A384E7F0 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -111,6 +157,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		377FA661D892485BB335CCE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9D25EA0BA414DCD8BF0529E /* IBMPlexSansHebrew-Bold.ttf */,
+				64964603D71D47AAA59CC766 /* IBMPlexSansHebrew-ExtraLight.ttf */,
+				7413B70A8D4E4175B380F527 /* IBMPlexSansHebrew-Light.ttf */,
+				44CDDF7E0EBF4AB39E928E7A /* IBMPlexSansHebrew-Medium.ttf */,
+				277902FFE98E41469D47EEC4 /* IBMPlexSansHebrew-Regular.ttf */,
+				B7437F6CF2B748DDA6C26EE4 /* IBMPlexSansHebrew-SemiBold.ttf */,
+				5A8F2ED9A6254FB78846F96A /* IBMPlexSansHebrew-Thin.ttf */,
+				77743136B45242E2B970828D /* AntDesign.ttf */,
+				439CB61650494F68B4CFC832 /* Entypo.ttf */,
+				D55FDC21FF4746E186740F94 /* EvilIcons.ttf */,
+				1915EF28A3144818B8F49F77 /* Feather.ttf */,
+				2D377229441A4CEF93CE8AD6 /* FontAwesome.ttf */,
+				03CF69EAAAD84FB5A5525D0B /* FontAwesome5_Brands.ttf */,
+				C28AF3675B924F36A6F29D57 /* FontAwesome5_Regular.ttf */,
+				0A006F8266064E9DBFFDA14B /* FontAwesome5_Solid.ttf */,
+				864D4A6C41C44167BA0C8EEB /* Fontisto.ttf */,
+				60563DCEC50543728382DAD0 /* Foundation.ttf */,
+				D5FBCCC4DBFB4793A384E7F0 /* Ionicons.ttf */,
+				17D7FE1A153343A599650987 /* MaterialCommunityIcons.ttf */,
+				7E005F69A2DB4794A6A9A4EE /* MaterialIcons.ttf */,
+				CEC6010BB04D450985A1A2D2 /* Octicons.ttf */,
+				2016C7F44E0B4A2FA4590723 /* SimpleLineIcons.ttf */,
+				20EA9F66CB144444AA7FB04D /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +204,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				CB8D68E9972F573A16FB606A /* Pods */,
+				377FA661D892485BB335CCE9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +327,29 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				91492B8FE9434DD4B43F8E7F /* IBMPlexSansHebrew-Bold.ttf in Resources */,
+				F8D98A1DC3B04D8580D9DCC5 /* IBMPlexSansHebrew-ExtraLight.ttf in Resources */,
+				7C1D98B9EB24480E8D851AC9 /* IBMPlexSansHebrew-Light.ttf in Resources */,
+				F2DAC5DC3FB34AF9AC690537 /* IBMPlexSansHebrew-Medium.ttf in Resources */,
+				CFCC04CAB4164D02B85FACC3 /* IBMPlexSansHebrew-Regular.ttf in Resources */,
+				E7EB2EE3BD0D4921A1AE601B /* IBMPlexSansHebrew-SemiBold.ttf in Resources */,
+				2BCE9686B3BC42EF8B345C4F /* IBMPlexSansHebrew-Thin.ttf in Resources */,
+				B4D9C16DB23C4BEB9416BF32 /* AntDesign.ttf in Resources */,
+				CD40E142ECEA4A22AF2CAC05 /* Entypo.ttf in Resources */,
+				6B52865A0DDB4C98ADD4C4AF /* EvilIcons.ttf in Resources */,
+				12E99193A2B44695A4EB80D5 /* Feather.ttf in Resources */,
+				20F651B0466F490CA2F0C529 /* FontAwesome.ttf in Resources */,
+				D868B640F32B42EAA72A1C29 /* FontAwesome5_Brands.ttf in Resources */,
+				EE5F3A3201A144FA82F3971E /* FontAwesome5_Regular.ttf in Resources */,
+				48A11E61DB95446DB52D6030 /* FontAwesome5_Solid.ttf in Resources */,
+				66E484F131684E569D408A0D /* Fontisto.ttf in Resources */,
+				C066F4FDB7EA4497B11BBE60 /* Foundation.ttf in Resources */,
+				D02E37CBBF914AC8932AAEFA /* Ionicons.ttf in Resources */,
+				EB3D5A21E95B48339B4EBBA0 /* MaterialCommunityIcons.ttf in Resources */,
+				1C3DAF86315D4367A23F97CD /* MaterialIcons.ttf in Resources */,
+				238ADA3E4F0F48ADBD3D15AB /* Octicons.ttf in Resources */,
+				9F78AC430CA84A278A3F0E52 /* SimpleLineIcons.ttf in Resources */,
+				E13A6CFC91514FC8BE9ED0D4 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

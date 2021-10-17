@@ -1,31 +1,42 @@
 import React, {useState} from 'react';
-import {StyleSheet, SafeAreaView, View, Text} from 'react-native';
+import {StyleSheet, SafeAreaView, View, Text,ActivityIndicator} from 'react-native';
 import Backgroundimage from '../../../assets/images/Backgroundimage.svg';
 import Backgroundimage1 from '../../../assets/images/Backgroundimage1.svg';
 import Button from '../../../components/Button/Button';
 import Input from '../../../components/Input/Input';
 import {colors} from '../../../styles/colors';
+import {useDispatch} from 'react-redux';
+import * as authActions from '../../../redux/actions/auth';
 import {moderateScale, verticalScale} from '../../../styles/responsiveStyles';
 import {typography} from '../../../styles/typography';
-import { showError, showSuccess } from '../../../utils/helperFunction';
-import { validatePhoneNumber } from '../../../utils/validations';
+import {showError} from '../../../utils/helperFunction';
+import {validatePhoneNumber} from '../../../utils/validations';
 const PhoneSigninScreen = ({navigation}) => {
-  const [userMobile, setUserMobile] = useState('');
- const  isValidData = () => {
-    
-    if (userMobile=='') {
-      showError("Please enter your Mobile Number");
+  const dispatch = useDispatch();
+  const [phone, setphone] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+
+  const isValidData = () => {
+    if (phone == '') {
+      showError('Please enter your Mobile Number');
       return;
     }
-    // if (validatePhoneNumber(userMobile)) {
-    //   showError("Please enter valid Mobile Number");
+    // if (validatePhoneNumber(phone)) {
+    //   showError('Please enter valid Mobile Number');
     //   return;
     // }
-    if (userMobile.length < 9 || userMobile.length > 15) {
-      showError("Please enter valid Mobile Number");
-      return;
-    }
-   navigation.navigate('OtpScreen')
+    setIsLoading(true);
+    dispatch(authActions.phoneSignin(phone));
+    setIsLoading(false);
+
+    navigation.navigate('OtpScreen',{phone});
+  };
+  if (isLoading) {
+    return (
+      <View style={styles.centered}>
+        <ActivityIndicator size="large" color={'red'} />
+      </View>
+    );
   }
 
   return (
@@ -45,18 +56,14 @@ const PhoneSigninScreen = ({navigation}) => {
       </View>
       <View style={styles.cover} />
       <Input
-style={{textAlign:'center'}}
-        maxLength={10}
-        value={userMobile}
-        onChangeText={text => setUserMobile(text)}
-        keyboardType="number-pad"
+        style={{textAlign: 'center'}}
+        value={phone}
+        onChangeText={text => setphone(text)}
         placeholder="טלפון נייד"
         placeholderTextColor={colors.GREY}
       />
       <View style={styles.cover1} />
-      <Button
-      onPress={isValidData}
-      text="כניסה" />
+      <Button onPress={isValidData} text="כניסה" />
     </SafeAreaView>
   );
 };
@@ -70,7 +77,7 @@ const styles = StyleSheet.create({
   logotext: {
     fontSize: typography.FONT_SIZE20,
     color: colors.THEME,
-    fontWeight:'bold'
+    fontWeight: 'bold',
   },
   heading: {
     marginHorizontal: moderateScale(50),
@@ -109,6 +116,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: moderateScale(200),
   },
+  centered: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
 });
 
 //make this component available to the app
